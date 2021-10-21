@@ -43,7 +43,7 @@ class ProductDetailScreen extends StatelessWidget {
               [
                 SizedBox(height: 10),
                 Text(
-                  '\$${loadedProduct.price}',
+                  '\₹${loadedProduct.price}',
                   style: TextStyle(
                     color: Colors.grey,
                     fontSize: 20,
@@ -62,7 +62,9 @@ class ProductDetailScreen extends StatelessWidget {
                     softWrap: true,
                   ),
                 ),
-                SizedBox(height: 800,),
+                SizedBox(
+                  height: 800,
+                ),
               ],
             ),
           ),
