@@ -65,6 +65,7 @@ class Auth with ChangeNotifier {
         {
           'token': _token,
           'userId': _userId,
+          'email': email,
           'expiryDate': _expiryDate.toIso8601String(),
         },
       );
